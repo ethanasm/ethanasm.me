@@ -24,7 +24,7 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-bg/95 backdrop-blur-sm border-b border-border"
-          : "bg-gradient-to-b from-black/60 to-transparent"
+          : "bg-gradient-to-b from-black/80 via-black/40 to-transparent"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -38,10 +38,10 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm transition-colors ${
+              className={`text-sm font-medium transition-colors ${
                 scrolled
                   ? "text-gray-400 hover:text-white"
-                  : "text-white/80 hover:text-white"
+                  : "text-white hover:text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]"
               }`}
             >
               {link.label}
