@@ -17,7 +17,7 @@ export default function Hero() {
 
       {/* Side fade overlay — dark on left, transparent on right */}
       {/* Side fade overlay — dark on left ~35%, transparent on right */}
-      <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/85 via-30% to-transparent to-55%" />
+      <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/85 via-35% to-transparent to-60%" />
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
