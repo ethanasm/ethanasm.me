@@ -12,36 +12,20 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Project One",
+    title: "Vacation Price Tracker",
     description:
-      "Placeholder — replace with your first featured project. Describe what it does and why it matters.",
-    tech: ["React", "TypeScript"],
-    url: "https://github.com/ethanasm",
-    urlLabel: "github.com/ethanasm/...",
+      "Personal vacation price tracker web application monitoring flights & hotels across dates for multiple users. Integrates custom MCP server with flight/hotel search tools, external MCP servers, and third-party APIs. Includes automated scheduling for daily price checks and historical trend analysis.",
+    tech: ["MCP", "Python", "React"],
+    url: "https://github.com/ethanasm/vacation-price-tracker",
+    urlLabel: "github.com/ethanasm/vacation-price-tracker",
   },
   {
-    title: "Project Two",
+    title: "MCP Review",
     description:
-      "Placeholder — replace with your second featured project. Could link to a live demo at ethanasm.me/project-name.",
-    tech: ["Python", "MCP"],
-    url: "https://github.com/ethanasm",
-    urlLabel: "ethanasm.me/project2",
-  },
-  {
-    title: "Project Three",
-    description:
-      "Placeholder — replace with another project. Each card links to either GitHub or a sub-site.",
-    tech: ["Java", "Spring"],
-    url: "https://github.com/ethanasm",
-    urlLabel: "github.com/ethanasm/...",
-  },
-  {
-    title: "Project Four",
-    description:
-      "Placeholder — replace with a fourth project if desired, or remove this card.",
-    tech: ["Angular", "C#"],
-    url: "https://github.com/ethanasm",
-    urlLabel: "github.com/ethanasm/...",
+      "CLI tool that provides AI-powered code review at the commit level. Works with local git history — no PRs required. Acts as an MCP host orchestrating tools to gather project context, enabling specific, pattern-aware feedback rather than generic suggestions.",
+    tech: ["MCP", "TypeScript", "CLI"],
+    url: "https://github.com/ethanasm/mcp-review",
+    urlLabel: "github.com/ethanasm/mcp-review",
   },
 ];
 
