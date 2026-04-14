@@ -49,7 +49,7 @@ const jobs: Job[] = [
   {
     title: "Data Engineering Intern",
     company: "Warner Bros. Digital Networks",
-    period: "2018 — 2019",
+    period: "2018",
     active: false,
   },
 ];
