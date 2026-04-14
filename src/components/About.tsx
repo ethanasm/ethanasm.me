@@ -53,7 +53,8 @@ export default function About() {
               Before AI infrastructure, I spent three years modernizing legacy
               systems — migrating Tapestry/JS pages to React + REST APIs,
               building report schedulers, and implementing complex time hierarchy
-              features across the full stack.
+              features across the full stack. I studied Computer Science and
+              Business Administration at USC.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-6">
