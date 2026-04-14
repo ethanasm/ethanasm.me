@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const socials = [
   {
     label: "Email",
-    href: "mailto:ethanasm@usc.edu",
+    href: "mailto:ethan7ce@gmail.com",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -70,7 +70,7 @@ export default function Contact() {
           </div>
 
           <p className="font-mono text-gray-600 text-xs mt-6">
-            ethanasm@usc.edu
+            ethan7ce@gmail.com
           </p>
         </motion.div>
       </div>

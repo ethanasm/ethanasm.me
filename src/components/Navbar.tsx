@@ -21,8 +21,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-        scrolled ? "bg-bg/95 backdrop-blur-sm border-b border-border" : "bg-transparent"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-bg/95 backdrop-blur-sm border-b border-border"
+          : "bg-gradient-to-b from-black/60 to-transparent"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -36,7 +38,11 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-gray-400 hover:text-white transition-colors"
+              className={`text-sm transition-colors ${
+                scrolled
+                  ? "text-gray-400 hover:text-white"
+                  : "text-white/80 hover:text-white"
+              }`}
             >
               {link.label}
             </a>
