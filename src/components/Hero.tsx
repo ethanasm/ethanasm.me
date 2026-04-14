@@ -17,7 +17,7 @@ export default function Hero() {
 
       {/* Side fade overlay — dark on left, transparent on right */}
       {/* Side fade overlay — dark on left ~35%, transparent on right */}
-      <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/80 via-25% to-transparent to-45%" />
+      <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/85 via-30% to-transparent to-55%" />
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
@@ -47,7 +47,7 @@ export default function Hero() {
               transition={{ delay: 0.6, duration: 0.5 }}
               className="text-lg text-gray-300 mt-4"
             >
-              Software Engineer · AI Infrastructure
+              Full-Stack Software Engineer · AI Infrastructure
             </motion.p>
 
             <motion.p
