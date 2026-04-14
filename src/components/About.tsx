@@ -26,7 +26,7 @@ export default function About() {
           <div className="flex-shrink-0 mx-auto md:mx-0">
             <div className="w-40 h-40 rounded-full overflow-hidden border-2 border-accent/20">
               <Image
-                src="/images/profile.jpg"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/profile.jpg`}
                 alt="Ethan Smith"
                 width={160}
                 height={160}

@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background photo */}
       <Image
-        src="/images/hero-bg.jpg"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/hero-bg.jpg`}
         alt="Lake Como, Italy"
         fill
         className="object-cover object-center"
