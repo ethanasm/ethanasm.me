@@ -67,9 +67,9 @@ export default function Projects() {
                   {project.tech.map((t, j) => (
                     <span
                       key={j}
-                      className="font-mono text-xs text-gray-500"
+                      className="font-mono text-xs font-semibold text-accent/70"
                     >
-                      {j > 0 && <span className="text-gray-700 mr-2">·</span>}
+                      {j > 0 && <span className="text-accent/30 mr-2">·</span>}
                       {t}
                     </span>
                   ))}
