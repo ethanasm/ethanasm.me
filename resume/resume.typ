@@ -26,14 +26,14 @@
 = Experience
 
 #resume-entry(
-  title: "Software Development Engineer",
+  title: "Senior Software Development Engineer",
   location: "San Francisco, CA",
   date: "Apr 2021 - Present",
   description: "Workday · Adaptive Planning",
 )
 
 #resume-item[
-  - Promoted twice in five years: Associate SDE → Senior Associate SDE → Software Development Engineer
+  - Promoted three times in four years: Associate SDE → Senior Associate SDE → SDE → Senior SDE
   - Developed the Planning Agent's data exploration, variance analysis, scenario planning, and help skills for enterprise financial planning, now deployed to 1,708 customers across 2,510+ sandbox instances
   - Built an MCP client-server architecture (Python client, Java server) with progressive tool disclosure and subagents to reduce context bloat in agent interactions
   - Designed and implemented the elicitation framework that renders planning widgets inline in the chat app by refactoring and reusing existing UI components, driving cross-team collaboration between GenAI, AppsAI, and architecture teams

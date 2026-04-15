@@ -18,7 +18,7 @@ interface Job {
 
 const jobs: Job[] = [
   {
-    title: "Software Development Engineer",
+    title: "Senior Software Development Engineer",
     company: "Workday · Adaptive Planning",
     period: "2021 — present",
     active: true,
