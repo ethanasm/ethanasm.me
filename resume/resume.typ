@@ -37,11 +37,8 @@
   - Developed AI-powered Planning Agent skills for enterprise financial planning including data exploration, variance analysis, scenario planning, and contextual help — deployed to 1,708 customers across 2,510+ sandbox instances
   - Designed and implemented MCP client-server architecture with Python client and Java server, featuring progressive tool disclosure and subagent architecture to reduce context bloat in agent interactions
   - Built end-to-end elicitation framework enabling planning widgets to render inline within the chat application, bridging structured UI interactions with conversational AI workflows
-  - Migrated legacy Tapestry/JavaScript pages to React frontends backed by REST APIs, modernizing core planning workflows
   - Architected portable report viewer as an embeddable widget for hub dashboards, driving 544 instances and 12,760+ reports added in the first three months
-  - Implemented alternate time hierarchies for financial reports, enabling customers to analyze data across custom fiscal calendars
   - Built cron-based report scheduling system that automated snapshot generation and user notification, eliminating a manual workflow across 6,500+ enterprise customers
-  - Established multi-turn evaluation framework for conversational AI features, testing agent responses across conversation flows dependent on memory and context
 ]
 
 #resume-entry(
