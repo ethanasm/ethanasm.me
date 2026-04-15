@@ -34,12 +34,12 @@
 
 #resume-item[
   - Promoted twice in five years: Associate SDE → Senior Associate SDE → Software Development Engineer
-  - Developed AI-powered Planning Agent skills for enterprise financial planning including data exploration, variance analysis, scenario planning, and contextual help — deployed to 1,708 customers across 2,510+ sandbox instances
-  - Built multi-turn evaluation framework testing agent responses across conversation flows dependent on memory and context
-  - Designed and implemented MCP client-server architecture with Python client and Java server, featuring progressive tool disclosure and subagent architecture to reduce context bloat in agent interactions
-  - Built end-to-end elicitation framework enabling planning widgets to render inline within the chat application, bridging structured UI interactions with conversational AI workflows
-  - Architected portable report viewer as an embeddable widget for hub dashboards, driving 544 instances and 12,760+ reports added in the first three months
-  - Built cron-based report scheduling system that automated snapshot generation and user notification, eliminating a manual workflow across 6,500+ enterprise customers
+  - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills, now deployed to 1,708 customers across 2,510+ sandbox instances
+  - Wrote a multi-turn eval framework that tests agent conversations end-to-end, including memory and context across turns
+  - Designed an MCP client-server architecture (Python client, Java server) with progressive tool disclosure and subagents to keep context usage under control
+  - Built the elicitation framework that lets planning widgets render inline in the chat app
+  - Shipped a portable report viewer widget for hub dashboards — 544 instances and 12,760+ reports added in the first three months
+  - Replaced a manual report workflow with a cron-based scheduler for snapshot generation and notifications, used across 6,500+ enterprise customers
 ]
 
 #resume-entry(
@@ -50,8 +50,8 @@
 )
 
 #resume-item[
-  - Built a backend Java application automating SOC 2 audit evidence retrieval via OAuth 2.0 and async API integrations with Jira, Azure DevOps, Workday, and Salesforce
-  - Developed a JSON-to-PDF conversion tool enabling external auditors to consume API outputs in a structured, readable format
+  - Automated SOC 2 audit evidence collection with a Java app using OAuth 2.0 and async API calls to Jira, Azure DevOps, Workday, and Salesforce
+  - Built a JSON-to-PDF converter so external auditors could read the API output in a structured format
 ]
 
 = Projects
@@ -64,8 +64,8 @@
 )
 
 #resume-item[
-  - Built a multi-user vacation price tracking application monitoring flights and hotels across date ranges with automated daily price checks and historical trend analysis
-  - Integrated custom MCP server with flight/hotel search tools and third-party APIs for real-time price data collection
+  - Tracks flight and hotel prices across date ranges for multiple users, with automated daily checks and historical trend data
+  - Custom MCP server handles flight/hotel search via third-party APIs for real-time price collection
 ]
 
 #resume-entry(
@@ -76,8 +76,8 @@
 )
 
 #resume-item[
-  - Developed a CLI tool providing AI-powered code review at the commit level, working directly with local git history without requiring pull requests
-  - Architected MCP host that orchestrates tools to gather project context including file structure, dependencies, and patterns, enabling specific, pattern-aware feedback
+  - CLI tool for AI-powered code review at the commit level — works with local git history, no PRs needed
+  - Runs as an MCP host that pulls in project context (file structure, deps, patterns) for targeted, pattern-aware feedback
 ]
 
 = Education
