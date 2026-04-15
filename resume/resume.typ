@@ -28,13 +28,14 @@
 #resume-entry(
   title: "Software Development Engineer",
   location: "San Francisco, CA",
-  date: "2021 - Present",
+  date: "Apr 2021 - Present",
   description: "Workday · Adaptive Planning",
 )
 
 #resume-item[
   - Promoted twice in five years: Associate SDE → Senior Associate SDE → Software Development Engineer
-  - Developed AI-powered Planning Agent skills for enterprise financial planning including data exploration, variance analysis, scenario planning, and contextual help — deployed to 1,708 customers across 2,510+ sandbox instances; built multi-turn evaluation framework testing agent responses across conversation flows dependent on memory and context
+  - Developed AI-powered Planning Agent skills for enterprise financial planning including data exploration, variance analysis, scenario planning, and contextual help — deployed to 1,708 customers across 2,510+ sandbox instances
+  - Built multi-turn evaluation framework testing agent responses across conversation flows dependent on memory and context
   - Designed and implemented MCP client-server architecture with Python client and Java server, featuring progressive tool disclosure and subagent architecture to reduce context bloat in agent interactions
   - Built end-to-end elicitation framework enabling planning widgets to render inline within the chat application, bridging structured UI interactions with conversational AI workflows
   - Architected portable report viewer as an embeddable widget for hub dashboards, driving 544 instances and 12,760+ reports added in the first three months
@@ -95,7 +96,7 @@
 = Skills
 
 #resume-skill-item(
-  "AI/ML",
+  "AI/LLM",
   (
     strong("LangGraph"),
     "LangSmith",
@@ -127,6 +128,7 @@
   (
     strong("MCP"),
     "REST",
+    "Git",
     "Docker",
     "Kubernetes",
   ),
