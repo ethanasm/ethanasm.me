@@ -52,7 +52,9 @@ export default function About() {
               systems — migrating Tapestry/JS pages to React + REST APIs,
               building report schedulers, and implementing complex time hierarchy
               features across the full stack. I studied Computer Science and
-              Business Administration at USC.
+              Business Administration at USC. Outside of work, I'm into
+              backpacking, Broadway, vinyl collecting, baking, and strategy
+              games like Civ and Catan.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-6">
