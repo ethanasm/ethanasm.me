@@ -17,7 +17,7 @@ interface Job {
 
 const jobs: Job[] = [
   {
-    title: "Software Development Engineer (P3)",
+    title: "Software Development Engineer",
     company: "Workday · Adaptive Planning",
     period: "2021 — present",
     active: true,
@@ -25,14 +25,20 @@ const jobs: Job[] = [
       {
         title: "AI Platform Engineering — Planning Agent",
         description:
-          "Building intelligent planning skills: help, data exploration, variance analysis, scenario planning. MCP apps within chat.",
+          "Building the AI-powered Planning Agent for Adaptive Planning — an intelligent assistant that helps financial planners with data exploration, variance analysis, scenario planning, and contextual help. Designed the MCP client-server architecture and built an elicitation framework for rendering planning widgets inline within chat.",
       },
       {
         title: "Full-Stack Engineering",
         description:
-          "Report scheduler, portable report viewer, migrating legacy Tapestry/JS → React + REST APIs, alternate time hierarchies.",
+          "Architected a portable report viewer consumed across multiple applications, built a cron-based report scheduling system, and modernized legacy pages by migrating from Tapestry/JS to React + REST APIs.",
       },
     ],
+  },
+  {
+    title: "Contract Software Engineer",
+    company: "Unreal Digital Group",
+    period: "2020 — 2021",
+    active: false,
   },
   {
     title: "Software Engineering Intern",
