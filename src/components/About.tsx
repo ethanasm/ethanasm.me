@@ -66,6 +66,25 @@ export default function About() {
                 </span>
               ))}
             </div>
+
+            {/* Currently into */}
+            <div className="mt-8 pt-6 border-t border-border">
+              <p className="font-mono text-accent/60 text-xs mb-3">// lately</p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div>
+                  <p className="text-[11px] text-gray-600 uppercase tracking-wider">Reading</p>
+                  <p className="text-sm text-gray-400 mt-0.5">The 7½ Deaths of Evelyn Hardcastle</p>
+                </div>
+                <div>
+                  <p className="text-[11px] text-gray-600 uppercase tracking-wider">Playing</p>
+                  <p className="text-sm text-gray-400 mt-0.5">Factorio: Space Age</p>
+                </div>
+                <div>
+                  <p className="text-[11px] text-gray-600 uppercase tracking-wider">Listening</p>
+                  <p className="text-sm text-gray-400 mt-0.5">Trying Times — James Blake</p>
+                </div>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

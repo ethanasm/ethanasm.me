@@ -48,31 +48,36 @@ export default function Projects() {
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group block bg-surface border border-border rounded-lg p-6 hover:border-accent/30 transition-all duration-200 hover:-translate-y-0.5"
+                className="group relative block rounded-lg p-6 transition-all duration-300 hover:-translate-y-1 bg-surface border border-border hover:border-accent/40 hover:shadow-[0_0_20px_rgba(0,212,255,0.08)]"
               >
-                <div className="flex items-center justify-between mb-4">
-                  <span className="text-accent text-lg">&#x2197;</span>
-                  <span className="font-mono text-xs text-gray-600">
-                    {project.urlLabel}
-                  </span>
-                </div>
+                {/* Glow effect on hover */}
+                <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                <h3 className="text-white font-bold">{project.title}</h3>
-
-                <p className="text-sm text-gray-500 mt-2 leading-relaxed">
-                  {project.description}
-                </p>
-
-                <div className="flex gap-2 mt-4">
-                  {project.tech.map((t, j) => (
-                    <span
-                      key={j}
-                      className="font-mono text-xs font-semibold text-accent/70"
-                    >
-                      {j > 0 && <span className="text-accent/30 mr-2">·</span>}
-                      {t}
+                <div className="relative">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-accent text-lg transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5">&#x2197;</span>
+                    <span className="font-mono text-xs text-gray-600 group-hover:text-gray-500 transition-colors">
+                      {project.urlLabel}
                     </span>
-                  ))}
+                  </div>
+
+                  <h3 className="text-white font-bold group-hover:text-accent transition-colors duration-300">{project.title}</h3>
+
+                  <p className="text-sm text-gray-500 mt-2 leading-relaxed">
+                    {project.description}
+                  </p>
+
+                  <div className="flex gap-2 mt-4">
+                    {project.tech.map((t, j) => (
+                      <span
+                        key={j}
+                        className="font-mono text-xs font-semibold text-accent/70"
+                      >
+                        {j > 0 && <span className="text-accent/30 mr-2">·</span>}
+                        {t}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </a>
             ))}
