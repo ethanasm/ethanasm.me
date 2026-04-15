@@ -25,20 +25,14 @@ const jobs: Job[] = [
       {
         title: "AI Platform Engineering — Planning Agent",
         description:
-          "Building the AI-powered Planning Agent for Adaptive Planning — an intelligent assistant that helps financial planners with data exploration, variance analysis, scenario planning, and contextual help. Designed the MCP client-server architecture and built an elicitation framework for rendering planning widgets inline within chat.",
+          "Building the Planning Agent for Adaptive Planning, which gives financial planners tools for data exploration, variance analysis, scenario planning, and contextual help. Designed the MCP client-server architecture and built the elicitation framework that renders planning widgets inline within chat.",
       },
       {
         title: "Full-Stack Engineering",
         description:
-          "Architected a portable report viewer consumed across multiple applications, built a cron-based report scheduling system, and modernized legacy pages by migrating from Tapestry/JS to React + REST APIs.",
+          "Built a portable report viewer that ships as a widget across multiple applications. Also built the report scheduling system and migrated legacy Tapestry/JS pages to React with REST API backends.",
       },
     ],
-  },
-  {
-    title: "Contract Software Engineer",
-    company: "Unreal Digital Group",
-    period: "2020 — 2021",
-    active: false,
   },
   {
     title: "Software Engineering Intern",

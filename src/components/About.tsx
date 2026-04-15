@@ -42,16 +42,15 @@ export default function About() {
             <p className="text-gray-300 leading-relaxed">
               Software engineer with 5+ years at Workday building AI-powered
               planning tools and full-stack applications. Currently focused on
-              the Planning Agent — an intelligent assistant for financial
-              planning that handles data exploration, variance analysis, and
-              scenario planning.
+              the Planning Agent, which gives financial planners tools for
+              data exploration, variance analysis, and scenario planning.
             </p>
 
             <p className="text-gray-500 leading-relaxed mt-4">
-              Before AI infrastructure, I spent three years modernizing legacy
-              systems — migrating Tapestry/JS pages to React + REST APIs,
-              building report schedulers, and implementing complex time hierarchy
-              features across the full stack. I studied Computer Science and
+              Before that, I spent three years modernizing legacy systems,
+              migrating Tapestry/JS pages to React + REST APIs, building
+              report schedulers, and implementing time hierarchy features
+              across the full stack. I studied Computer Science and
               Business Administration at USC. Outside of work, I'm into
               backpacking, Broadway, vinyl collecting, baking, and strategy
               games like Civ and Catan.
