@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background photo */}
       <Image
-        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/hero-bg.jpg`}
+        src="/images/hero-bg.jpg"
         alt="Lake Como, Italy"
         fill
         className="object-cover object-center"
@@ -66,7 +66,7 @@ export default function Hero() {
               className="flex gap-3 mt-8"
             >
               <a
-                href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/Ethan-Smith-Resume.pdf`}
+                href="/Ethan-Smith-Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-accent text-bg px-5 py-2.5 rounded text-sm font-bold hover:bg-accent/90 transition-colors"

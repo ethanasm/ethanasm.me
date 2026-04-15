@@ -13,14 +13,12 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains",
 });
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
 export const metadata: Metadata = {
   title: "Ethan Smith — Software Engineer",
   description:
     "Software engineer specializing in AI infrastructure and full-stack development at Workday.",
   icons: {
-    icon: `${basePath}/favicon.ico`,
+    icon: "/favicon.ico",
   },
 };
 
