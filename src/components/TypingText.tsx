@@ -36,7 +36,7 @@ export default function TypingText({
   return (
     <p className={className}>
       {displayed}
-      <span className="animate-pulse">▌</span>
+      <span className="animate-[blink_1s_step-end_infinite]">▌</span>
     </p>
   );
 }

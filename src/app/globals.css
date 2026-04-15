@@ -16,3 +16,7 @@ body {
   background-color: var(--color-bg);
   color: #ffffff;
 }
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
