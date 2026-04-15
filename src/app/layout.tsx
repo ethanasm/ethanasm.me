@@ -16,9 +16,17 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Ethan Smith — Software Engineer",
   description:
-    "Software engineer specializing in AI infrastructure and full-stack development at Workday.",
+    "Software engineer specializing in AI platform engineering and full-stack development at Workday.",
   icons: {
     icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "Ethan Smith",
+    description:
+      "Full-Stack Software Engineer · AI Platform Engineering",
+    url: "https://ethanasm.me",
+    siteName: "Ethan Smith",
+    type: "website",
   },
 };
 
