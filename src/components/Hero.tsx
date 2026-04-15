@@ -47,7 +47,7 @@ export default function Hero() {
               transition={{ delay: 0.6, duration: 0.5 }}
               className="text-lg text-gray-300 mt-4"
             >
-              Full-Stack Software Engineer · AI Infrastructure
+              Full-Stack Software Engineer · AI Platform Engineering
             </motion.p>
 
             <motion.p

@@ -23,7 +23,7 @@ const jobs: Job[] = [
     active: true,
     subRoles: [
       {
-        title: "AI Infrastructure — Planning Agent",
+        title: "AI Platform Engineering — Planning Agent",
         description:
           "Building intelligent planning skills: help, data exploration, variance analysis, scenario planning. MCP apps within chat.",
       },

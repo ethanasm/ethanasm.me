@@ -12,7 +12,7 @@
     address: "San Francisco, CA",
     positions: (
       "Software Engineer",
-      "AI/ML Infrastructure",
+      "AI Platform Engineering",
     ),
   ),
   profile-picture: none,
@@ -34,12 +34,14 @@
 
 #resume-item[
   - Promoted twice in five years: Associate SDE → Senior Associate SDE → Software Development Engineer
-  - Developed AI-powered Planning Agent skills for enterprise financial planning including data exploration, variance analysis, scenario planning, and contextual help
-  - Designed and implemented MCP client-server architecture with Python client and Java server, enabling structured AI-agent interactions across the planning platform
+  - Developed AI-powered Planning Agent skills for enterprise financial planning including data exploration, variance analysis, scenario planning, and contextual help — deployed to 1,708 customers across 2,510+ sandbox instances
+  - Designed and implemented MCP client-server architecture with Python client and Java server, featuring progressive tool disclosure and subagent architecture to reduce context bloat in agent interactions
+  - Built end-to-end elicitation framework enabling planning widgets to render inline within the chat application, bridging structured UI interactions with conversational AI workflows
   - Migrated legacy Tapestry/JavaScript pages to React frontends backed by REST APIs, modernizing core planning workflows
   - Architected portable report viewer as an embeddable widget for hub dashboards, driving 544 instances and 12,760+ reports added in the first three months
   - Implemented alternate time hierarchies for financial reports, enabling customers to analyze data across custom fiscal calendars
   - Built cron-based report scheduling system that automated snapshot generation and user notification, eliminating a manual workflow across 6,500+ enterprise customers
+  - Established multi-turn evaluation framework for conversational AI features, testing agent responses across conversation flows dependent on memory and context
 ]
 
 #resume-entry(
@@ -59,20 +61,19 @@
 #resume-entry(
   title: "Vacation Price Tracker",
   location: [#link("https://github.com/ethanasm/vacation-price-tracker")[github.com/ethanasm/vacation-price-tracker]],
-  date: "2025",
+  date: "2026",
   description: "Python · MCP · React",
 )
 
 #resume-item[
-  - Built a multi-user vacation price tracking application monitoring flights and hotels across date ranges with automated daily price checks
+  - Built a multi-user vacation price tracking application monitoring flights and hotels across date ranges with automated daily price checks and historical trend analysis
   - Integrated custom MCP server with flight/hotel search tools and third-party APIs for real-time price data collection
-  - Implemented historical trend analysis with automated scheduling for daily price tracking
 ]
 
 #resume-entry(
   title: "MCP Review",
   location: [#link("https://github.com/ethanasm/mcp-review")[github.com/ethanasm/mcp-review]],
-  date: "2025",
+  date: "2026",
   description: "TypeScript · MCP · CLI",
 )
 
