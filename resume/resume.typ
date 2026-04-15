@@ -34,10 +34,10 @@
 
 #resume-item[
   - Promoted twice in five years: Associate SDE → Senior Associate SDE → Software Development Engineer
-  - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills, now deployed to 1,708 customers across 2,510+ sandbox instances
+  - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills for enterprise financial planning, now deployed to 1,708 customers across 2,510+ sandbox instances
   - Wrote a multi-turn eval framework that tests agent conversations end-to-end, including memory and context across turns
   - Designed an MCP client-server architecture (Python client, Java server) with progressive tool disclosure and subagents to keep context usage under control
-  - Built the elicitation framework that lets planning widgets render inline in the chat app
+  - Built the elicitation framework that renders planning widgets inline in the chat app, bridging structured UI interactions with conversational AI workflows
   - Shipped a portable report viewer widget for planning dashboards and hubs pages — 544 instances and 12,760+ reports added in the first three months
   - Replaced a manual report workflow with a cron-based scheduler for snapshot generation and notifications, used across 6,500+ enterprise customers
 ]
