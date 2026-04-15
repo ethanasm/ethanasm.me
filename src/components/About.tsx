@@ -40,7 +40,7 @@ export default function About() {
             <p className="font-mono text-accent text-sm mb-6">// about</p>
 
             <p className="text-gray-300 leading-relaxed">
-              Software engineer with 5+ years at Workday building AI-powered
+              Senior software engineer with 5+ years at Workday building AI-powered
               planning tools and full-stack applications. Currently focused on
               the Planning Agent, which gives financial planners tools for
               data exploration, variance analysis, and scenario planning.
