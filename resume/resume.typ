@@ -65,7 +65,7 @@
 
 #resume-item[
   - Tracks flight and hotel prices across date ranges for multiple users, with automated daily checks and historical trend data
-  - Custom MCP server handles flight/hotel search via third-party APIs for real-time price collection
+  - Custom MCP server exposes flight and hotel search tools backed by third-party APIs, with a React frontend for price visualization
 ]
 
 #resume-entry(
@@ -76,8 +76,9 @@
 )
 
 #resume-item[
-  - CLI tool for AI-powered code review at the commit level — works with local git history, no PRs needed
-  - Runs as an MCP host that pulls in project context (file structure, deps, patterns) for targeted, pattern-aware feedback
+  - AI-powered code review CLI built for solo devs who push to main without PRs, reviewing against local git history
+  - Acts as an MCP host spawning 4 tool servers over stdio (git diff, file context, convention scanner, related files), where the LLM drives its own context gathering across rounds
+  - Reviews reference actual project patterns and lint configs instead of generic advice because the model has access to the surrounding codebase, not just the diff
 ]
 
 = Education
