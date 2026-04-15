@@ -7,7 +7,7 @@ const techTags = [
   "React",
   "Java",
   "Python",
-  "LangChain",
+  "LangGraph",
   "MCP",
 ];
 
