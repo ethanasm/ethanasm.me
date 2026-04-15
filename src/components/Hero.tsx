@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import ParticleNetwork from "./ParticleNetwork";
+import TypingText from "./TypingText";
 
 export default function Hero() {
   return (
@@ -27,14 +28,12 @@ export default function Hero() {
       <div className="relative z-10 h-full flex items-end pb-20 md:items-center md:pb-0">
         <div className="max-w-6xl mx-auto px-6 w-full">
           <div className="max-w-lg">
-            <motion.p
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2, duration: 0.5 }}
+            <TypingText
+              text="$ whoami"
+              delay={200}
+              speed={100}
               className="font-mono text-accent text-sm mb-4"
-            >
-              $ whoami
-            </motion.p>
+            />
 
             <motion.h1
               initial={{ opacity: 0, y: 10 }}

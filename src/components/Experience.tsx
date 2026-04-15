@@ -12,6 +12,7 @@ interface Job {
   company: string;
   period: string;
   active: boolean;
+  logo?: string;
   subRoles?: SubRole[];
 }
 
@@ -21,6 +22,7 @@ const jobs: Job[] = [
     company: "Workday · Adaptive Planning",
     period: "2021 — present",
     active: true,
+    logo: "W",
     subRoles: [
       {
         title: "AI Platform Engineering — Planning Agent",
@@ -39,18 +41,21 @@ const jobs: Job[] = [
     company: "Xactly",
     period: "2020",
     active: false,
+    logo: "X",
   },
   {
     title: "Product Marketing Intern",
     company: "Teradata",
     period: "2019",
     active: false,
+    logo: "TD",
   },
   {
     title: "Data Engineering Intern",
     company: "Warner Bros. Digital Networks",
     period: "2018",
     active: false,
+    logo: "WB",
   },
 ];
 
@@ -81,14 +86,29 @@ export default function Experience() {
                   }`}
                 />
 
-                <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
-                  <h3
-                    className={`font-semibold ${
-                      job.active ? "text-white text-lg" : "text-gray-400"
-                    }`}
-                  >
-                    {job.title}
-                  </h3>
+                <div className="flex items-start gap-4">
+                  {/* Company logo */}
+                  {job.logo && (
+                    <div
+                      className={`flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center font-bold text-sm ${
+                        job.active
+                          ? "bg-accent/10 text-accent border border-accent/20"
+                          : "bg-surface text-gray-500 border border-border"
+                      }`}
+                    >
+                      {job.logo}
+                    </div>
+                  )}
+
+                  <div className="flex-1">
+                    <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+                      <h3
+                        className={`font-semibold ${
+                          job.active ? "text-white text-lg" : "text-gray-400"
+                        }`}
+                      >
+                        {job.title}
+                      </h3>
                   <span className="font-mono text-xs text-gray-600 flex-shrink-0">
                     {job.period}
                   </span>
@@ -102,20 +122,22 @@ export default function Experience() {
                   {job.company}
                 </p>
 
-                {job.subRoles && (
-                  <div className="mt-4 pl-4 border-l border-border space-y-3">
-                    {job.subRoles.map((role, j) => (
-                      <div key={j}>
-                        <p className="text-sm font-medium text-gray-300">
-                          {role.title}
-                        </p>
-                        <p className="text-sm text-gray-500 mt-1 leading-relaxed">
-                          {role.description}
-                        </p>
+                    {job.subRoles && (
+                      <div className="mt-4 pl-4 border-l border-border space-y-3">
+                        {job.subRoles.map((role, j) => (
+                          <div key={j}>
+                            <p className="text-sm font-medium text-gray-300">
+                              {role.title}
+                            </p>
+                            <p className="text-sm text-gray-500 mt-1 leading-relaxed">
+                              {role.description}
+                            </p>
+                          </div>
+                        ))}
                       </div>
-                    ))}
+                    )}
                   </div>
-                )}
+                </div>
               </div>
             ))}
           </div>
