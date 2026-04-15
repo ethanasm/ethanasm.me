@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     title: "Vacation Price Tracker",
     description:
-      "Personal vacation price tracker web application monitoring flights & hotels across dates for multiple users. Integrates custom MCP server with flight/hotel search tools, external MCP servers, and third-party APIs. Includes automated scheduling for daily price checks and historical trend analysis.",
+      "Tracks flight and hotel prices across date ranges for multiple users, with automated daily checks and historical trend data. Custom MCP server exposes flight and hotel search tools backed by third-party APIs, with a React frontend for price visualization.",
     tech: ["MCP", "Python", "React"],
     url: "https://github.com/ethanasm/vacation-price-tracker",
     urlLabel: "github.com/ethanasm/vacation-price-tracker",
@@ -22,7 +22,7 @@ const projects: Project[] = [
   {
     title: "MCP Review",
     description:
-      "CLI tool that provides AI-powered code review at the commit level. Works with local git history — no PRs required. Acts as an MCP host orchestrating tools to gather project context, enabling specific, pattern-aware feedback rather than generic suggestions.",
+      "AI-powered code review CLI for solo devs who push to main without PRs. Spawns 4 MCP tool servers over stdio (git diff, file context, convention scanner, related files) and lets the LLM drive its own context gathering. Reviews reference actual project patterns and lint configs, not generic advice.",
     tech: ["MCP", "TypeScript", "CLI"],
     url: "https://github.com/ethanasm/mcp-review",
     urlLabel: "github.com/ethanasm/mcp-review",
