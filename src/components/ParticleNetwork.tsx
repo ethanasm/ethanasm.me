@@ -99,8 +99,8 @@ export default function ParticleNetwork() {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute top-0 left-0 h-full pointer-events-none"
-      style={{ zIndex: 1, width: "35%" }}
+      className="absolute top-0 left-0 h-full pointer-events-none hidden md:block"
+      style={{ zIndex: 1, width: "45%" }}
     />
   );
 }

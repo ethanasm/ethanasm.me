@@ -16,15 +16,15 @@ export default function Hero() {
         priority
       />
 
-      {/* Side fade overlay — dark on left, transparent on right */}
-      {/* Side fade overlay — dark on left ~35%, transparent on right */}
-      <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/85 via-45% to-transparent to-65%" />
+      {/* Side fade overlay — bottom fade on mobile, side fade on desktop */}
+      <div className="absolute inset-0 bg-gradient-to-t from-bg from-10% via-bg/70 via-50% to-transparent md:bg-none" />
+      <div className="absolute inset-0 hidden md:block bg-gradient-to-r from-bg via-bg/85 via-45% to-transparent to-65%" />
 
       {/* Particle network animation */}
       <ParticleNetwork />
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center">
+      <div className="relative z-10 h-full flex items-end pb-20 md:items-center md:pb-0">
         <div className="max-w-6xl mx-auto px-6 w-full">
           <div className="max-w-lg">
             <motion.p
