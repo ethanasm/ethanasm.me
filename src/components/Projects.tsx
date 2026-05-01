@@ -20,6 +20,14 @@ const projects: Project[] = [
     urlLabel: "github.com/ethanasm/vacation-price-tracker",
   },
   {
+    title: "Showbook",
+    description:
+      "Personal entertainment tracker for live shows — concerts, theatre, comedy, and festivals. Track your show history, discover upcoming events, and see your patterns.",
+    tech: ["Next.js", "Expo", "Drizzle", "tRPC"],
+    url: "https://showbook.ethanasm.me",
+    urlLabel: "showbook.ethanasm.me",
+  },
+  {
     title: "MCP Review",
     description:
       "AI-powered code review CLI for solo devs who push to main without PRs. Spawns 4 MCP tool servers over stdio (git diff, file context, convention scanner, related files) and lets the LLM drive its own context gathering. Reviews reference actual project patterns and lint configs, not generic advice.",
