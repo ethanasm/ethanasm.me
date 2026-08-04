@@ -29,12 +29,13 @@
   title: "Senior Software Development Engineer",
   location: "San Francisco, CA",
   date: "Apr 2021 - Present",
-  description: "Workday · Adaptive Planning",
+  description: "Workday · Decision Intelligence",
 )
 
 #resume-item[
   - Promoted three times in five years: Associate SDE → Senior Associate SDE → SDE → Senior SDE
-  - Developed the Planning Agent's data exploration, variance analysis, scenario planning, and help skills for enterprise financial planning, now deployed to 1,708 customers across 2,510+ sandbox instances
+  - Contributed to Workday Decision Intelligence's Adaptive Planning integration (GA July 2026) — scenario write-back and merging scenarios into base versions — and oversaw performance testing and end-to-end tracing across system logs and LangSmith
+  - Developed the Planning Agent's data exploration, variance analysis, scenario planning, and contextual help skills
   - Built an MCP client-server architecture (Python client, Java server) with progressive tool disclosure and subagents to reduce context bloat in agent interactions
   - Designed and implemented the elicitation framework that renders planning widgets inline in the chat app by refactoring and reusing existing UI components, driving cross-team collaboration between GenAI, AppsAI, and architecture teams
   - Shipped a portable report viewer widget for planning dashboards and hubs pages, giving users a consistent reporting experience without leaving their workflow — 544 instances and 12,760+ reports added in the first three months

@@ -25,9 +25,14 @@ const jobs: Job[] = [
     logo: "W",
     subRoles: [
       {
+        title: "AI Platform Engineering — Decision Intelligence",
+        description:
+          "Working on Workday Decision Intelligence, an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources — Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Built scenario write-back and scenario-merge pieces of the Adaptive Planning integration (GA July 2026), and drive performance testing and end-to-end tracing across services and LangSmith.",
+      },
+      {
         title: "AI Platform Engineering — Planning Agent",
         description:
-          "Building the Planning Agent for Adaptive Planning, which gives financial planners tools for data exploration, variance analysis, scenario planning, and contextual help. Designed the MCP client-server architecture and built the elicitation framework that renders planning widgets inline within chat.",
+          "Built the Planning Agent for Adaptive Planning, which gave financial planners tools for data exploration, variance analysis, scenario planning, and contextual help. Designed the MCP client-server architecture and built the elicitation framework that rendered planning widgets inline within chat.",
       },
       {
         title: "Full-Stack Engineering",
