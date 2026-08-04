@@ -46,7 +46,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-center"
         >
-          <p className="font-mono text-accent text-sm mb-6">// contact</p>
+          <p className="font-mono text-accent text-sm mb-6">{"// contact"}</p>
 
           <h2 className="text-3xl font-bold">Get in touch</h2>
 

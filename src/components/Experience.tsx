@@ -69,7 +69,7 @@ export default function Experience() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
         >
-          <p className="font-mono text-accent text-sm mb-10">// experience</p>
+          <p className="font-mono text-accent text-sm mb-10">{"// experience"}</p>
 
           <div className="space-y-0">
             {jobs.map((job, i) => (

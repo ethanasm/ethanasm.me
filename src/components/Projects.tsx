@@ -50,7 +50,7 @@ export default function Projects() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
         >
-          <p className="font-mono text-accent text-sm mb-10">// projects</p>
+          <p className="font-mono text-accent text-sm mb-10">{"// projects"}</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {projects.map((project, i) => (

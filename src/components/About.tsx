@@ -37,7 +37,7 @@ export default function About() {
 
           {/* Text content */}
           <div className="flex-1">
-            <p className="font-mono text-accent text-sm mb-6">// about</p>
+            <p className="font-mono text-accent text-sm mb-6">{"// about"}</p>
 
             <p className="text-gray-300 leading-relaxed">
               Senior software engineer with 5+ years at Workday building AI-powered
@@ -51,7 +51,7 @@ export default function About() {
               migrating Tapestry/JS pages to React + REST APIs, building
               report schedulers, and implementing time hierarchy features
               across the full stack. I studied Computer Science and
-              Business Administration at USC. Outside of work, I'm into
+              Business Administration at USC. Outside of work, I&apos;m into
               backpacking, Broadway, vinyl collecting, baking, and strategy
               games like Civ and Catan.
             </p>
@@ -69,7 +69,7 @@ export default function About() {
 
             {/* Currently into */}
             <div className="mt-8 pt-6 border-t border-border">
-              <p className="font-mono text-accent/60 text-xs mb-3">// lately</p>
+              <p className="font-mono text-accent/60 text-xs mb-3">{"// lately"}</p>
               <div className="flex flex-col sm:flex-row sm:justify-between gap-6">
                 <div>
                   <p className="text-[11px] text-gray-600 uppercase tracking-wider">Reading</p>
