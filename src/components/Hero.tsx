@@ -59,7 +59,7 @@ export default function Hero() {
               transition={{ delay: 0.7, duration: 0.5 }}
               className="text-sm text-gray-500 mt-1"
             >
-              Adaptive Planning @ Workday
+              Decision Intelligence @ Workday
             </motion.p>
 
             <motion.div
