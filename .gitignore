@@ -39,6 +39,9 @@ yarn-error.log*
 # superpowers
 .superpowers/
 
+# Playwright MCP local output
+.playwright-mcp/
+
 # claude
 .claude/
 
