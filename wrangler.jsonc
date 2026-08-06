@@ -1,0 +1,24 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ethanasm-me-analytics",
+  "main": "cloudflare-worker/src/index.ts",
+  "compatibility_date": "2026-08-05",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "ethanasm.me/*",
+      "zone_name": "ethanasm.me"
+    },
+    {
+      "pattern": "www.ethanasm.me/*",
+      "zone_name": "ethanasm.me"
+    }
+  ],
+  "observability": {
+    "enabled": false
+  },
+  "vars": {
+    "AXIOM_DATASET": "ethanasm-site-traffic",
+    "AXIOM_API_URL": "https://api.axiom.co"
+  }
+}

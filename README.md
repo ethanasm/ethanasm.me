@@ -29,6 +29,16 @@ npm run build
 
 Static output goes to `out/`. The GitHub Actions workflow builds and deploys on push to `main`.
 
+## Traffic analytics
+
+Traffic analytics are collected at the Cloudflare edge and sent to Axiom. The
+events contain the page path, response status and duration, and approximate
+country/region/city. They do not contain IP addresses, cookies, fingerprints,
+referrers, query strings, user agents, or visitor identifiers.
+
+See [docs/traffic-analytics.md](docs/traffic-analytics.md) for setup, deployment,
+privacy controls, and Axiom queries.
+
 ## Structure
 
 ```
@@ -40,4 +50,8 @@ public/
   CNAME          # Custom domain config
 resume/
   resume.typ     # Typst source for resume
+cloudflare-worker/
+  src/index.ts   # Privacy-minimized Axiom ingestion Worker
+docs/
+  traffic-analytics.md
 ```
