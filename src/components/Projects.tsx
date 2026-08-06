@@ -38,6 +38,14 @@ const projects: Project[] = [
     url: "https://github.com/ethanasm/mcp-review",
     urlLabel: "github.com/ethanasm/mcp-review",
   },
+  {
+    title: "MCP Budget Governor",
+    description:
+      "Spend limits for MCP servers, counted in dollars rather than calls — per-user quotas, per-tool limits, and a global circuit breaker in atomic Redis counters that reset themselves at UTC midnight. Extracted from Vacation Price Tracker's rate limiter and shipped to PyPI and npm as two packages over one shared contract, so a Python worker and a Node server pointed at the same Redis enforce a single budget.",
+    tech: ["MCP", "Python", "TypeScript", "Redis"],
+    url: "https://github.com/ethanasm/mcp-budget-governor",
+    urlLabel: "github.com/ethanasm/mcp-budget-governor",
+  },
 ];
 
 export default function Projects() {
