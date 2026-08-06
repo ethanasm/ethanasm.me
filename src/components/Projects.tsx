@@ -57,7 +57,7 @@ const projects: Project[] = [
   {
     title: "Provider Router",
     description:
-      "Routes one capability across interchangeable providers with ordered failover, normalized results, and explicit handling for degraded responses. Zero-dependency Python and TypeScript packages share the same behavioral test vectors.",
+      "Routes one capability across interchangeable providers with ordered failover, normalized results, and explicit handling for degraded responses. Zero-dependency packages on PyPI and npm share one set of behavioral test vectors, so the two runtimes cannot drift apart. In use for flight-provider failover and venue geocoding.",
     tech: ["Python", "TypeScript", "Routing"],
     url: "https://github.com/ethanasm/provider-router",
     urlLabel: "github.com/ethanasm/provider-router",
