@@ -38,6 +38,30 @@ const projects: Project[] = [
     url: "https://github.com/ethanasm/mcp-review",
     urlLabel: "github.com/ethanasm/mcp-review",
   },
+  {
+    title: "MCP Budget Governor",
+    description:
+      "Cost-denominated limits for MCP servers: per-user quotas, per-tool limits, and a global spend circuit breaker. Python and TypeScript packages share one atomic Redis contract, so services in both runtimes enforce the same budget.",
+    tech: ["MCP", "Python", "TypeScript", "Redis"],
+    url: "https://github.com/ethanasm/mcp-budget-governor",
+    urlLabel: "github.com/ethanasm/mcp-budget-governor",
+  },
+  {
+    title: "MCP Queue Doctor",
+    description:
+      "MCP server that diagnoses pg-boss and graphile-worker queues. It turns retry storms, stuck jobs, missed schedules, and expiry overruns into evidence-backed findings with the safest recovery steps.",
+    tech: ["MCP", "TypeScript", "Postgres"],
+    url: "https://github.com/ethanasm/mcp-queue-doctor",
+    urlLabel: "github.com/ethanasm/mcp-queue-doctor",
+  },
+  {
+    title: "Provider Router",
+    description:
+      "Routes one capability across interchangeable providers with ordered failover, normalized results, and explicit handling for degraded responses. Zero-dependency Python and TypeScript packages share the same behavioral test vectors.",
+    tech: ["Python", "TypeScript", "Routing"],
+    url: "https://github.com/ethanasm/provider-router",
+    urlLabel: "github.com/ethanasm/provider-router",
+  },
 ];
 
 export default function Projects() {
