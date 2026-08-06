@@ -66,21 +66,29 @@ export default function Hero() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.5 }}
-              className="flex gap-3 mt-8"
+              className="grid grid-cols-2 gap-3 mt-8 sm:flex sm:flex-wrap"
             >
               <a
                 href="/Ethan-Smith-Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-accent text-bg px-5 py-2.5 rounded text-sm font-bold hover:bg-accent/90 transition-colors"
+                className="bg-accent text-bg px-5 py-2.5 rounded text-center text-sm font-bold hover:bg-accent/90 transition-colors"
               >
                 Resume
+              </a>
+              <a
+                href="https://ethanasm.github.io/garden/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-accent/40 text-accent px-5 py-2.5 rounded text-center text-sm hover:border-accent/70 transition-colors"
+              >
+                Garden
               </a>
               <a
                 href="https://github.com/ethanasm"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-accent/40 text-accent px-5 py-2.5 rounded text-sm hover:border-accent/70 transition-colors"
+                className="border border-accent/40 text-accent px-5 py-2.5 rounded text-center text-sm hover:border-accent/70 transition-colors"
               >
                 GitHub
               </a>
@@ -88,7 +96,7 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/ethan-a-smith/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-accent/40 text-accent px-5 py-2.5 rounded text-sm hover:border-accent/70 transition-colors"
+                className="border border-accent/40 text-accent px-5 py-2.5 rounded text-center text-sm hover:border-accent/70 transition-colors"
               >
                 LinkedIn
               </a>
