@@ -53,7 +53,7 @@ export default {
 
 async function sendToAxiom(event: PageViewEvent, env: Env): Promise<void> {
   const apiUrl = (env.AXIOM_API_URL ?? "https://api.axiom.co").replace(/\/$/, "");
-  const endpoint = `${apiUrl}/v1/ingest/${encodeURIComponent(env.AXIOM_DATASET)}`;
+  const endpoint = `${apiUrl}/v1/datasets/${encodeURIComponent(env.AXIOM_DATASET)}/ingest`;
 
   try {
     await fetch(endpoint, {
