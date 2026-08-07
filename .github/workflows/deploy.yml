@@ -35,6 +35,11 @@ jobs:
           unzip -q /tmp/font-awesome.zip -d /tmp/resume-fonts
       - name: Compile resume from Typst source
         run: typst compile --font-path /tmp/resume-fonts resume/resume.typ public/Ethan-Smith-Resume.pdf
+      - name: Fail if resume exceeds one page
+        run: |
+          pages=$(python3 -c "import re; print(len(re.findall(rb'/Type\s*/Page[^s]', open('public/Ethan-Smith-Resume.pdf','rb').read())))")
+          echo "Resume page count: $pages"
+          test "$pages" = "1"
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
