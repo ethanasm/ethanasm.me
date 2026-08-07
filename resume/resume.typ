@@ -65,7 +65,7 @@
 
 #resume-item[
   - Full-stack flight and hotel price tracker: FastAPI backend, Next.js web and Expo mobile clients, and Temporal workflows for automated daily price checks, trend history, and threshold alerts
-  - LLM chat assistant searches flights and hotels via MCP tools; flight search fails over automatically across three providers
+  - LLM chat assistant searches flights and hotels via MCP tools; flight search fails over across three providers using #link("https://github.com/ethanasm/provider-router")[provider-router], a zero-dependency routing library I published to PyPI and npm
 ]
 
 #resume-entry(
@@ -77,7 +77,7 @@
 
 #resume-item[
   - AI-powered code review CLI built for solo devs who push to main without PRs, reviewing against local git history
-  - Acts as an MCP host spawning 4 tool servers over stdio (git diff, file context, convention scanner, related files), where the LLM drives its own context gathering across rounds
+  - MCP host spawning 4 stdio tool servers (git diff, file context, conventions, related files); the LLM drives its own context gathering
   - Reviews cite actual project patterns and lint configs, not generic advice — the model sees the whole codebase, not just the diff
 ]
 
