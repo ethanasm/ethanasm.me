@@ -51,9 +51,7 @@ export default function Contact() {
           <h2 className="text-3xl font-bold">Get in touch</h2>
 
           <p className="text-gray-500 mt-3 max-w-lg mx-auto">
-            I&apos;m currently open to senior roles in AI platform engineering.
-            Let&apos;s talk about AI agents, Factorio base designs, or whatever
-            you&apos;re working on.
+            Let&apos;s talk about AI agents, Factorio base designs, or whatever you&apos;re working on.
           </p>
 
           <div className="flex gap-4 justify-center mt-8">
