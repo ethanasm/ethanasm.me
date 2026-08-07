@@ -29,6 +29,19 @@ npm run build
 
 Static output goes to `out/`. The GitHub Actions workflow builds and deploys on push to `main`.
 
+## Resume
+
+The resume's single source of truth is `resume/resume.typ` (Typst,
+[modern-cv](https://typst.app/universe/package/modern-cv) template). The
+deploy workflow compiles it to `public/Ethan-Smith-Resume.pdf` on every push
+to `main`, so the served PDF can never drift from the source — the PDF is not
+committed. To preview locally (requires [Typst](https://typst.app) plus the
+Source Sans 3 and Font Awesome fonts):
+
+```bash
+typst compile resume/resume.typ public/Ethan-Smith-Resume.pdf
+```
+
 ## Traffic analytics
 
 Traffic analytics are collected at the Cloudflare edge and sent to Axiom. The

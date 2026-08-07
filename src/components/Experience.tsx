@@ -13,6 +13,7 @@ interface Job {
   period: string;
   active: boolean;
   logo?: string;
+  description?: string;
   subRoles?: SubRole[];
 }
 
@@ -47,6 +48,8 @@ const jobs: Job[] = [
     period: "2020",
     active: false,
     logo: "X",
+    description:
+      "Automated SOC 2 audit evidence collection across Jira, Azure DevOps, Workday, and Salesforce.",
   },
   {
     title: "Product Marketing Intern",
@@ -54,6 +57,8 @@ const jobs: Job[] = [
     period: "2019",
     active: false,
     logo: "TD",
+    description:
+      "Product marketing for enterprise data analytics and cloud data warehousing.",
   },
   {
     title: "Data Engineering Intern",
@@ -61,6 +66,8 @@ const jobs: Job[] = [
     period: "2018",
     active: false,
     logo: "WB",
+    description:
+      "Data engineering for Warner Bros.' direct-to-consumer digital platforms.",
   },
 ];
 
@@ -126,6 +133,12 @@ export default function Experience() {
                 >
                   {job.company}
                 </p>
+
+                    {job.description && (
+                      <p className="text-sm text-gray-500 mt-2 leading-relaxed">
+                        {job.description}
+                      </p>
+                    )}
 
                     {job.subRoles && (
                       <div className="mt-4 pl-4 border-l border-border space-y-3">

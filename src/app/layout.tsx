@@ -13,20 +13,27 @@ const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrains",
 });
 
+const siteDescription =
+  "Full-stack software engineer specializing in AI platform engineering — agents, MCP, and LLM-powered planning tools at Workday.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ethanasm.me"),
   title: "Ethan Smith — Software Engineer",
-  description:
-    "Software engineer specializing in AI platform engineering and full-stack development at Workday.",
+  description: siteDescription,
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "Ethan Smith",
-    description:
-      "Full-Stack Software Engineer · AI Platform Engineering",
+    title: "Ethan Smith — Software Engineer",
+    description: siteDescription,
     url: "https://ethanasm.me",
     siteName: "Ethan Smith",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ethan Smith — Software Engineer",
+    description: siteDescription,
   },
 };
 

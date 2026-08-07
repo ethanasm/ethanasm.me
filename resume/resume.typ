@@ -50,8 +50,8 @@
 )
 
 #resume-item[
-  - Automated SOC 2 audit evidence collection with a Java app using OAuth 2.0 and async API calls to Jira, Azure DevOps, Workday, and Salesforce
-  - Built a JSON-to-PDF converter so external auditors could read the API output in a structured format
+  - Built a Java service automating SOC 2 audit evidence collection via OAuth 2.0-authenticated integrations with Jira, Azure DevOps, Workday, and Salesforce
+  - Designed a reporting pipeline rendering the collected evidence into audit-ready PDF packages for external auditors
 ]
 
 = Projects
@@ -60,12 +60,12 @@
   title: "Vacation Price Tracker",
   location: [#link("https://github.com/ethanasm/vacation-price-tracker")[github.com/ethanasm/vacation-price-tracker]],
   date: "2026",
-  description: "Python · MCP · React",
+  description: "Python · TypeScript · Temporal · MCP",
 )
 
 #resume-item[
-  - Tracks flight and hotel prices across date ranges for multiple users, with automated daily checks and historical trend data
-  - Custom MCP server exposes flight and hotel search tools backed by third-party APIs, with a React frontend for price visualization
+  - Full-stack flight and hotel price tracker: FastAPI backend, Next.js web and Expo mobile clients, and Temporal workflows for automated daily price checks, trend history, and threshold alerts
+  - LLM chat assistant searches flights and hotels via MCP tools; flight search fails over automatically across three providers
 ]
 
 #resume-entry(
@@ -78,7 +78,7 @@
 #resume-item[
   - AI-powered code review CLI built for solo devs who push to main without PRs, reviewing against local git history
   - Acts as an MCP host spawning 4 tool servers over stdio (git diff, file context, convention scanner, related files), where the LLM drives its own context gathering across rounds
-  - Reviews reference actual project patterns and lint configs instead of generic advice because the model has access to the surrounding codebase, not just the diff
+  - Reviews cite actual project patterns and lint configs, not generic advice — the model sees the whole codebase, not just the diff
 ]
 
 = Education

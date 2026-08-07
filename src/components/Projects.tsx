@@ -15,8 +15,8 @@ const projects: Project[] = [
   {
     title: "Vacation Price Tracker",
     description:
-      "Tracks flight and hotel prices across date ranges for multiple users, with automated daily checks and historical trend data. Custom MCP server exposes flight and hotel search tools backed by third-party APIs, with a React frontend for price visualization.",
-    tech: ["MCP", "Python", "React"],
+      "Tracks flight and hotel prices for planned vacations with automated daily checks, historical trend charts, and threshold alerts. FastAPI backend with Temporal workflows and an LLM chat assistant that searches flights and hotels through MCP tools; Next.js web and Expo mobile clients; multi-provider flight search with automatic failover.",
+    tech: ["FastAPI", "Temporal", "MCP", "Next.js", "Expo"],
     url: "https://vacation-price-tracker.ethanasm.me",
     urlLabel: "vacation-price-tracker.ethanasm.me",
     repoUrl: "https://github.com/ethanasm/vacation-price-tracker",

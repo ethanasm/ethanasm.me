@@ -48,3 +48,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# resume PDF is compiled from resume/resume.typ in CI (and locally for dev)
+/public/Ethan-Smith-Resume.pdf

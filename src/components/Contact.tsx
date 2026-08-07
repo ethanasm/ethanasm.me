@@ -51,7 +51,9 @@ export default function Contact() {
           <h2 className="text-3xl font-bold">Get in touch</h2>
 
           <p className="text-gray-500 mt-3 max-w-lg mx-auto">
-            Let&apos;s talk about AI agents, Factorio base designs, or whatever you&apos;re working on.
+            I&apos;m currently open to senior roles in AI platform engineering.
+            Let&apos;s talk about AI agents, Factorio base designs, or whatever
+            you&apos;re working on.
           </p>
 
           <div className="flex gap-4 justify-center mt-8">
@@ -59,8 +61,9 @@ export default function Contact() {
               <a
                 key={s.label}
                 href={s.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(s.href.startsWith("mailto:")
+                  ? {}
+                  : { target: "_blank", rel: "noopener noreferrer" })}
                 aria-label={s.label}
                 className="w-12 h-12 rounded-lg bg-surface border border-border flex items-center justify-center text-gray-400 hover:text-accent hover:border-accent/30 transition-colors"
               >

@@ -65,6 +65,21 @@ export default function Hero() {
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8, duration: 0.5 }}
+              className="flex items-center gap-2 mt-4"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
+              </span>
+              <span className="font-mono text-xs text-emerald-400/90">
+                open to new opportunities
+              </span>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.5 }}
               className="grid grid-cols-2 gap-3 mt-8 sm:flex sm:flex-wrap"
             >
@@ -82,7 +97,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="border border-accent/40 text-accent px-5 py-2.5 rounded text-center text-sm hover:border-accent/70 transition-colors"
               >
-                Garden
+                Digital Garden
               </a>
               <a
                 href="https://github.com/ethanasm"
