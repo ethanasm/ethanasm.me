@@ -23,6 +23,9 @@
   paper-size: "us-letter",
 )
 
+// Wrap at word boundaries only — never split a word across lines.
+#set text(hyphenate: false)
+
 = Experience
 
 #resume-entry(
@@ -100,10 +103,11 @@
   "AI/LLM",
   (
     strong("MCP"),
-    "Agent architectures (tool use, subagents)",
+    "Agent architectures",
     "LangGraph",
     "Anthropic API",
-    "LLM observability (LangSmith, Langfuse)",
+    "LangSmith",
+    "Langfuse",
     "LLM evals",
   ),
 )
