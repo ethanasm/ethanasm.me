@@ -99,49 +99,40 @@
 #resume-skill-item(
   "AI/LLM",
   (
-    strong("LangGraph"),
-    "LangSmith",
+    strong("MCP"),
+    "Agent architectures (tool use, subagents)",
+    "LangGraph",
     "Anthropic API",
-    "OpenRouter",
-    "RAG",
+    "LLM observability (LangSmith, Langfuse)",
+    "LLM evals",
   ),
 )
 #resume-skill-item(
   "Languages",
   (
-    strong("Python"),
     strong("Java"),
-    "TypeScript",
-    "C#",
+    strong("TypeScript"),
+    "Python",
     "SQL",
   ),
 )
 #resume-skill-item(
-  "Frontend",
+  "Frontend & Mobile",
   (
     strong("React"),
     "Next.js",
-    "Angular",
+    "React Native / Expo",
+    "Playwright",
   ),
 )
 #resume-skill-item(
-  "Protocols & Infra",
+  "Backend & Infra",
   (
-    strong("MCP"),
-    "REST",
-    "Git",
-    "Docker",
-    "Kubernetes",
-  ),
-)
-#resume-skill-item(
-  "Backend & Cloud",
-  (
-    "Spring Boot",
     "FastAPI",
+    "Temporal",
     "PostgreSQL",
-    "Oracle Database",
     "Redis",
+    "Docker",
     "GitHub Actions",
   ),
 )
