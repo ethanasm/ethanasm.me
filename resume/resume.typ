@@ -89,7 +89,7 @@
 = Open Source
 
 #resume-entry(
-  title: "Libraries & Tools",
+  title: "Published Libraries",
   location: [#link("https://github.com/ethanasm")[github.com/ethanasm]],
   date: "2026",
   description: "Python · TypeScript · MCP",
@@ -99,7 +99,7 @@
   - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm): routes one capability across interchangeable providers with ordered failover on rate limits
   - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm): per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
   - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm): MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
-  - #link("https://github.com/ethanasm/mcp-review")[mcp-review] (GitHub): AI code review CLI for commits pushed straight to main, with four stdio MCP servers for context
+  - #link("https://github.com/ethanasm/mcp-review")[mcp-git-reviewer] (npm): AI code review CLI for commits pushed straight to main, with four stdio MCP servers for context
   - Design write-ups on tradeoffs and failure modes in the work above: #link("https://ethanasm.github.io/garden/")[ethanasm.github.io/garden]
 ]
 
