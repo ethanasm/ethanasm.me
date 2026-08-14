@@ -30,7 +30,7 @@ const jobs: Job[] = [
       {
         title: "Agent Factory · Decision Intelligence",
         description:
-          "Workday Decision Intelligence is a new product line, not an add-on to an existing product: an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources including Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Customers buy it in its own right. I built the agent skills that integrate Adaptive Planning, on both sides: hypercube data queries for reads, and data write-backs to planning sheets for writes. I also connected Adaptive Planning reports directly into the product, so users no longer export a report and re-upload it as a file to analyze it, and I own performance testing and end-to-end tracing across services and LangSmith.",
+          "Workday Decision Intelligence is a new product line, not an add-on to an existing product: an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources including Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Customers buy it in its own right. I connected Adaptive Planning reports directly into the product, so users no longer export a report and re-upload it as a file to analyze it, and I contributed to the agent skills that integrate Adaptive Planning on both sides: hypercube data queries for reads, and data write-backs to planning sheets for writes. I also own performance testing and end-to-end tracing across services and LangSmith.",
       },
       {
         title: "Adaptive Planning · Planning Agent",

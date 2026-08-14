@@ -38,8 +38,8 @@
 
 #resume-item[
   - Shipped *Decision Intelligence*, Workday's new AI product line, to GA
-  - Built its Adaptive Planning skills: hypercube data queries for reads, write-backs to planning sheets for writes
   - Connected Adaptive Planning reports directly into the product, so users no longer export and re-upload files to analyze them
+  - Contributed to its Adaptive Planning read and write skills: hypercube data queries and write-backs to planning sheets
   - Owned performance testing and end-to-end tracing across system logs and LangSmith for multi-step agent runs
 ]
 
