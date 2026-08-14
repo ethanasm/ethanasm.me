@@ -41,9 +41,10 @@ export default function About() {
 
             <p className="text-gray-300 leading-relaxed">
               Senior software engineer with 5+ years at Workday building AI-powered
-              planning tools and full-stack applications. Currently working on
-              Workday Decision Intelligence, an AI-native platform where finance
-              teams explore and model their data in plain language — across
+              planning tools and full-stack applications. Currently in Workday&apos;s Agent Factory, the company&apos;s dedicated
+              AI organization, working on Decision Intelligence — an AI-native
+              platform where finance teams explore and model their data in plain
+              language — across
               governed sources like Adaptive Planning, Prism, Snowflake, and
               uploaded spreadsheets.
             </p>

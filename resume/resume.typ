@@ -54,7 +54,7 @@
 ]
 
 #resume-item[
-  - *Earlier full-stack work*: a portable report viewer for dashboards and hubs — 544 instances, 12,760+ reports in three months
+  - Earlier full-stack work: shipped a portable report viewer widget — 544 instances, 12,760+ reports in three months
   - Replaced a manual report workflow with a cron-based scheduler for snapshots and notifications, used across 6,500+ customers
 ]
 
