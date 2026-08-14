@@ -32,30 +32,32 @@
 #resume-entry(
   title: "Senior Software Development Engineer",
   location: "San Francisco, CA",
-  date: "Apr 2021 - Present",
-  description: "Workday · Adaptive Planning → Agent Factory",
+  date: "2026 - Present",
+  description: "Workday · Agent Factory",
 )
 
 #resume-item[
-  - *Promoted three times in five years*: Associate SDE → Senior Associate SDE → SDE → Senior SDE
-]
-
-#resume-item[
-  - Drove *Decision Intelligence* from early access to GA-readiness: scenario write-back and merge, 28 accounts with usage
-  - Integrated Adaptive Planning reports as connected assets, removing a manual export-and-upload step before analysis
+  - Shipped *Decision Intelligence*, Workday's new AI product line, to GA
+  - Built its Adaptive Planning skills: hypercube data queries for reads, write-backs to planning sheets for writes
+  - Connected Adaptive Planning reports directly into the product, so users no longer export and re-upload files to analyze them
   - Owned performance testing and end-to-end tracing across system logs and LangSmith for multi-step agent runs
 ]
 
-#resume-item[
-  - Shipped the *Planning Agent* to GA on Adaptive Planning (Mar 2026); 1,300+ customers with usage, 1,238 MAU (Aug 2026)
-  - Built its data exploration, variance analysis, scenario planning, and help skills to a 95% eval-pass gate
-  - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
-  - Designed the elicitation framework rendering planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
-]
+#resume-entry(
+  title: "Software Development Engineer",
+  location: "San Francisco, CA",
+  date: "Apr 2021 - 2026",
+  description: "Workday · Adaptive Planning",
+)
 
 #resume-item[
-  - Earlier full-stack work: shipped a portable report viewer widget — 544 instances, 12,760+ reports in three months
-  - Replaced a manual report workflow with a cron-based scheduler for snapshots and notifications, used across 6,500+ customers
+  - *Promoted three times*: Associate SDE → Senior Associate SDE → SDE → Senior SDE
+  - Shipped the *Planning Agent* to GA (Mar 2026); 1,300+ customer accounts with recorded usage as of Aug 2026
+  - Developed its data exploration, variance analysis, scenario planning, and contextual help skills, each gated at 95% eval pass
+  - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
+  - Designed the elicitation framework that renders planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
+  - Shipped a portable report viewer widget (544 instances, 12,760+ reports in three months)
+  - Replaced a manual report workflow with a cron-based scheduler for snapshots and notifications, adopted by 6,500+ customers
 ]
 
 = Projects
@@ -70,17 +72,6 @@
 #resume-item[
   - Full-stack flight and hotel price tracker: FastAPI backend, Next.js web and Expo mobile clients, Temporal daily price checks
   - LLM chat assistant searches flights and hotels via MCP tools, with flight search failing over across three providers
-]
-
-#resume-entry(
-  title: "MCP Review",
-  location: [#link("https://github.com/ethanasm/mcp-review")[github.com/ethanasm/mcp-review]],
-  date: "2026",
-  description: "TypeScript · MCP · CLI",
-)
-
-#resume-item[
-  - AI code review CLI for solo devs pushing to main without PRs; 4 stdio MCP tool servers let the LLM gather its own context
 ]
 
 #resume-entry(
@@ -105,10 +96,10 @@
 )
 
 #resume-item[
-  - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm) — routes one capability across interchangeable providers with ordered failover on rate limits
-  - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm) — per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
-  - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm) — MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
-  - Design write-ups on the work above — tradeoffs and failure modes: #link("https://ethanasm.github.io/garden/")[ethanasm.github.io/garden]
+  - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm): routes one capability across interchangeable providers with ordered failover on rate limits
+  - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm): per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
+  - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm): MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
+  - Design write-ups on tradeoffs and failure modes in the work above: #link("https://ethanasm.github.io/garden/")[ethanasm.github.io/garden]
 ]
 
 = Education
@@ -119,6 +110,10 @@
   date: "Aug 2017 - Dec 2020",
   description: "B.S. in Computer Science and Business Administration",
 )
+
+// Education has no #resume-item, so it never gets that block trailing
+// space; restore the gap the other section headings have.
+#v(5.4pt)
 
 = Skills
 
@@ -157,7 +152,7 @@
   (
     "FastAPI",
     "Temporal",
-    "PostgreSQL",
+    strong("PostgreSQL"),
     "Redis",
     "Docker",
     "GitHub Actions",

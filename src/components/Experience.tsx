@@ -25,22 +25,22 @@ const jobs: Job[] = [
     active: true,
     logo: "W",
     description:
-      "Spent my first five years in Adaptive Planning, then moved into Agent Factory — Workday's dedicated AI organization, a 0-to-1 team that builds autonomous agents as standalone product lines rather than AI features bolted onto existing workflows.",
+      "Spent my first five years in Adaptive Planning, then moved into Agent Factory, Workday's dedicated AI organization. It builds autonomous agents as new product lines of their own, rather than AI features added onto existing products.",
     subRoles: [
       {
-        title: "Agent Factory — Decision Intelligence",
+        title: "Agent Factory · Decision Intelligence",
         description:
-          "Working on Workday Decision Intelligence, an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources — Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Drove it from early access (Apr 2026) toward GA-readiness, building the scenario write-back and scenario-merge pieces of the Adaptive Planning integration; 28 customer accounts have recorded usage so far, most still on implementation tenants. Also integrated Adaptive Planning reports into Decision Intelligence as connected assets, so users can analyze a report in place instead of exporting it and re-uploading it as a file. Own performance testing and end-to-end tracing across services and LangSmith.",
+          "Workday Decision Intelligence is a new product line, not an add-on to an existing product: an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources including Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Customers buy it in its own right. I built the agent skills that integrate Adaptive Planning, on both sides: hypercube data queries for reads, and data write-backs to planning sheets for writes. I also connected Adaptive Planning reports directly into the product, so users no longer export a report and re-upload it as a file to analyze it, and I own performance testing and end-to-end tracing across services and LangSmith.",
       },
       {
-        title: "Adaptive Planning — Planning Agent",
+        title: "Adaptive Planning · Planning Agent",
         description:
-          "Built the Planning Agent for Adaptive Planning, which gave financial planners tools for data exploration, variance analysis, scenario planning, and contextual help — each held to a 95% eval-pass gate before release. It shipped to GA in Mar 2026 and now has 1,300+ customers with recorded usage and 1,238 monthly active users (Aug 2026). Designed the MCP client-server architecture, using progressive tool disclosure and subagents to cut context bloat, and built the elicitation framework that rendered planning widgets inline within chat.",
+          "Built the Planning Agent for Adaptive Planning, which gave financial planners tools for data exploration, variance analysis, scenario planning, and contextual help, each gated at a 95% eval pass before release. It shipped to GA in Mar 2026 and now has 1,300+ customer accounts with recorded usage (Aug 2026). Designed the MCP client-server architecture, using progressive tool disclosure and subagents to cut context bloat, and built the elicitation framework that rendered planning widgets inline within chat.",
       },
       {
-        title: "Adaptive Planning — Full-Stack Engineering",
+        title: "Adaptive Planning · Full-Stack Engineering",
         description:
-          "Built a portable report viewer that ships as a widget across multiple applications — 544 instances and 12,760+ reports added in its first three months. Also replaced a manual report workflow with a cron-based scheduler for snapshot generation and notifications, used across 6,500+ enterprise customers, and migrated legacy Tapestry/JS pages to React with REST API backends.",
+          "Built a portable report viewer that ships as a widget across multiple applications, with 544 instances and 12,760+ reports added in its first three months. Also replaced a manual report workflow with a cron-based scheduler for snapshot generation and notifications, used across 6,500+ enterprise customers, and migrated legacy Tapestry/JS pages to React with REST API backends.",
       },
     ],
   },
