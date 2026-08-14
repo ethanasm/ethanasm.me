@@ -28,17 +28,17 @@ const jobs: Job[] = [
       {
         title: "AI Platform Engineering — Decision Intelligence",
         description:
-          "Working on Workday Decision Intelligence, an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources — Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Built scenario write-back and scenario-merge pieces of the Adaptive Planning integration (GA July 2026), and drive performance testing and end-to-end tracing across services and LangSmith.",
+          "Working on Workday Decision Intelligence, an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources — Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Drove it from early access (Apr 2026) toward GA-readiness, building the scenario write-back and scenario-merge pieces of the Adaptive Planning integration; 28 customer accounts have recorded usage so far, most still on implementation tenants. Own performance testing and end-to-end tracing across services and LangSmith.",
       },
       {
         title: "AI Platform Engineering — Planning Agent",
         description:
-          "Built the Planning Agent for Adaptive Planning, which gave financial planners tools for data exploration, variance analysis, scenario planning, and contextual help. Designed the MCP client-server architecture and built the elicitation framework that rendered planning widgets inline within chat.",
+          "Built the Planning Agent for Adaptive Planning, which gave financial planners tools for data exploration, variance analysis, scenario planning, and contextual help — each held to a 95% eval-pass gate before release. It shipped to GA in Mar 2026 and now has 1,300+ customers with recorded usage and 1,238 monthly active users (Aug 2026). Designed the MCP client-server architecture, using progressive tool disclosure and subagents to cut context bloat, and built the elicitation framework that rendered planning widgets inline within chat.",
       },
       {
         title: "Full-Stack Engineering",
         description:
-          "Built a portable report viewer that ships as a widget across multiple applications. Also built the report scheduling system and migrated legacy Tapestry/JS pages to React with REST API backends.",
+          "Built a portable report viewer that ships as a widget across multiple applications — 544 instances and 12,760+ reports added in its first three months. Also replaced a manual report workflow with a cron-based scheduler for snapshot generation and notifications, used across 6,500+ enterprise customers, and migrated legacy Tapestry/JS pages to React with REST API backends.",
       },
     ],
   },

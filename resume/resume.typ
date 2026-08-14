@@ -40,7 +40,7 @@
   - Promoted three times in five years: Associate SDE → Senior Associate SDE → SDE → Senior SDE
   - Shipped the Planning Agent to GA on Adaptive Planning (Mar 2026); 1,300+ customers with usage, 1,238 MAU (Aug 2026)
   - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills to a 95% eval-pass gate
-  - Drove Workday Decision Intelligence from early access (Apr 2026) to GA-readiness — scenario write-back and merging scenarios into base versions — reaching 28 customer accounts with recorded usage
+  - Drove Decision Intelligence from early access (Apr 2026) to GA-readiness: scenario write-back and merge, 28 accounts with usage
   - Owned performance testing and end-to-end tracing across system logs and LangSmith for multi-step agent runs
   - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
   - Designed the elicitation framework rendering planning widgets inline in chat, across GenAI, AppsAI, and architecture teams

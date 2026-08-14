@@ -24,6 +24,11 @@ jobs:
           cache: npm
       - run: npm ci
       - uses: typst-community/setup-typst@v4
+        with:
+          # Pinned: the action defaults to "latest", and a Typst upgrade
+          # changes line breaking, which silently pushes the resume to a
+          # second page and fails the one-page check below.
+          typst-version: 0.15.1
       - name: Install resume fonts (Source Sans 3, Roboto, Font Awesome)
         run: |
           mkdir -p /tmp/resume-fonts
