@@ -33,7 +33,7 @@
   title: "Senior Software Development Engineer",
   location: "San Francisco, CA",
   date: "Apr 2021 - Present",
-  description: "Workday",
+  description: "Workday · Adaptive Planning → Agent Factory",
 )
 
 #resume-item[
