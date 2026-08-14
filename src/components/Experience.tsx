@@ -28,7 +28,7 @@ const jobs: Job[] = [
       {
         title: "AI Platform Engineering — Decision Intelligence",
         description:
-          "Working on Workday Decision Intelligence, an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources — Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Drove it from early access (Apr 2026) toward GA-readiness, building the scenario write-back and scenario-merge pieces of the Adaptive Planning integration; 28 customer accounts have recorded usage so far, most still on implementation tenants. Own performance testing and end-to-end tracing across services and LangSmith.",
+          "Working on Workday Decision Intelligence, an AI-native platform where finance teams ask questions, model scenarios, and commit decisions across governed data sources — Adaptive Planning, Prism, Snowflake, and uploaded spreadsheets. Drove it from early access (Apr 2026) toward GA-readiness, building the scenario write-back and scenario-merge pieces of the Adaptive Planning integration; 28 customer accounts have recorded usage so far, most still on implementation tenants. Also integrated Adaptive Planning reports into Decision Intelligence as connected assets, so users can analyze a report in place instead of exporting it and re-uploading it as a file. Own performance testing and end-to-end tracing across services and LangSmith.",
       },
       {
         title: "AI Platform Engineering — Planning Agent",

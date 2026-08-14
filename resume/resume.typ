@@ -37,26 +37,16 @@
 )
 
 #resume-item[
-  - Promoted three times in five years: Associate SDE → Senior Associate SDE → SDE → Senior SDE
-  - Shipped the Planning Agent to GA on Adaptive Planning (Mar 2026); 1,300+ customers with usage, 1,238 MAU (Aug 2026)
-  - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills to a 95% eval-pass gate
-  - Drove Decision Intelligence from early access (Apr 2026) to GA-readiness: scenario write-back and merge, 28 accounts with usage
+  - *Promoted three times in five years*: Associate SDE → Senior Associate SDE → SDE → Senior SDE
+  - Shipped the Planning Agent to GA on Adaptive Planning (Mar 2026); *1,300+ customers with usage, 1,238 MAU* (Aug 2026)
+  - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills to a *95% eval-pass gate*
+  - Drove Decision Intelligence from early access (Apr 2026) to GA-readiness: scenario write-back and merge, *28 accounts* with usage
+  - Integrated Adaptive Planning reports into Decision Intelligence as connected assets, removing a manual export-and-upload step
   - Owned performance testing and end-to-end tracing across system logs and LangSmith for multi-step agent runs
   - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
   - Designed the elicitation framework rendering planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
-  - Shipped a portable report viewer widget for planning dashboards and hubs — 544 instances, 12,760+ reports in three months
-  - Replaced a manual report workflow with a cron-based scheduler for snapshots and notifications, used across 6,500+ customers
-]
-
-#resume-entry(
-  title: "Software Engineering Intern",
-  location: "San Jose, CA",
-  date: "May 2020 - Aug 2020",
-  description: "Xactly",
-)
-
-#resume-item[
-  - Automated SOC 2 audit evidence collection in Java via OAuth 2.0 integrations with Jira, Azure DevOps, Workday, and Salesforce
+  - Shipped a portable report viewer widget for planning dashboards and hubs — *544 instances, 12,760+ reports* in three months
+  - Replaced a manual report workflow with a cron-based scheduler for snapshots and notifications, used across *6,500+ customers*
 ]
 
 = Projects
@@ -93,6 +83,7 @@
 
 #resume-item[
   - Predicts concert setlists from a setlist.fm corpus; a nightly back-test gates release on Brier score and calibration error
+  - Tracks concerts, theatre, and festivals: Ticketmaster ingest, Gmail ticket scanning, venue follows, Spotify playlists, digests
 ]
 
 = Open Source
