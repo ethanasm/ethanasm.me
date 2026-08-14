@@ -99,6 +99,7 @@
   - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm) — routes one capability across interchangeable providers with ordered failover on rate limits
   - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm) — per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
   - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm) — MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
+  - Design write-ups on the work above — tradeoffs and failure modes: #link("https://ethanasm.github.io/garden/")[ethanasm.github.io/garden]
 ]
 
 = Education
