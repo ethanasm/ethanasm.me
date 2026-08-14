@@ -41,7 +41,7 @@
   - Shipped the Planning Agent to GA on Adaptive Planning (Mar 2026); 1,300+ customers with usage, 1,238 MAU (Aug 2026)
   - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills to a 95% eval-pass gate
   - Drove Workday Decision Intelligence from early access (Apr 2026) to GA-readiness — scenario write-back and merging scenarios into base versions — reaching 28 customer accounts with recorded usage
-  - Owned performance testing and end-to-end tracing across system logs and LangSmith over a 1,742-run benchmark corpus
+  - Owned performance testing and end-to-end tracing across system logs and LangSmith for multi-step agent runs
   - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
   - Designed the elicitation framework rendering planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
   - Shipped a portable report viewer widget for planning dashboards and hubs — 544 instances, 12,760+ reports in three months
@@ -74,6 +74,19 @@
 ]
 
 #resume-entry(
+  title: "MCP Review",
+  location: [#link("https://github.com/ethanasm/mcp-review")[github.com/ethanasm/mcp-review]],
+  date: "2026",
+  description: "TypeScript · MCP · CLI",
+)
+
+#resume-item[
+  - AI code review CLI for solo devs pushing to main without PRs; 4 stdio MCP tool servers let the LLM gather its own context
+]
+
+= Open Source
+
+#resume-entry(
   title: "Published Libraries",
   location: [#link("https://github.com/ethanasm")[github.com/ethanasm]],
   date: "2026",
@@ -84,17 +97,6 @@
   - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm) — routes one capability across interchangeable providers with ordered failover on rate limits
   - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm) — per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
   - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm) — MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
-]
-
-#resume-entry(
-  title: "MCP Review",
-  location: [#link("https://github.com/ethanasm/mcp-review")[github.com/ethanasm/mcp-review]],
-  date: "2026",
-  description: "TypeScript · MCP · CLI",
-)
-
-#resume-item[
-  - AI code review CLI for solo devs who push to main without PRs; an MCP host spawning 4 stdio tool servers so the LLM gathers its own context
 ]
 
 = Education
