@@ -69,7 +69,7 @@
 )
 
 #resume-item[
-  - Full-stack flight and hotel price tracker: FastAPI backend, Next.js web and Expo mobile clients, and Temporal workflows for automated daily price checks, trend history, and threshold alerts
+  - Full-stack flight and hotel price tracker: FastAPI backend, Next.js web and Expo mobile clients, Temporal daily price checks
   - LLM chat assistant searches flights and hotels via MCP tools, with flight search failing over across three providers
 ]
 
@@ -82,6 +82,17 @@
 
 #resume-item[
   - AI code review CLI for solo devs pushing to main without PRs; 4 stdio MCP tool servers let the LLM gather its own context
+]
+
+#resume-entry(
+  title: "Showbook",
+  location: [#link("https://github.com/ethanasm/showbook")[github.com/ethanasm/showbook]],
+  date: "2026",
+  description: "TypeScript · Next.js · Expo · pg-boss",
+)
+
+#resume-item[
+  - Predicts concert setlists from a setlist.fm corpus; a nightly back-test gates release on Brier score and calibration error
 ]
 
 = Open Source
