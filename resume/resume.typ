@@ -37,7 +37,7 @@
 )
 
 #resume-item[
-  - Shipped *Decision Intelligence*, Workday's new AI product line, to GA
+  - Core engineer on *Decision Intelligence*, Workday's new AI product line, through its GA launch
   - Connected Adaptive Planning reports directly into the product, so users no longer export and re-upload files to analyze them
   - Contributed to its Adaptive Planning read and write skills: hypercube data queries and write-backs to planning sheets
   - Owned performance testing and end-to-end tracing across system logs and LangSmith for multi-step agent runs
@@ -52,7 +52,7 @@
 
 #resume-item[
   - *Promoted three times*: Associate SDE → Senior Associate SDE → SDE → Senior SDE
-  - Shipped the *Planning Agent* to GA (Mar 2026); 1,300+ customer accounts with recorded usage as of Aug 2026
+  - On the team that took the *Planning Agent* to GA (Mar 2026); 1,300+ customer accounts with usage as of Aug 2026
   - Developed its data exploration, variance analysis, scenario planning, and contextual help skills, each gated at 95% eval pass
   - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
   - Designed the elicitation framework that renders planning widgets inline in chat, across GenAI, AppsAI, and architecture teams

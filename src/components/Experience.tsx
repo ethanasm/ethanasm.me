@@ -35,7 +35,7 @@ const jobs: Job[] = [
       {
         title: "Adaptive Planning · Planning Agent",
         description:
-          "Built the Planning Agent for Adaptive Planning, which gave financial planners tools for data exploration, variance analysis, scenario planning, and contextual help, each gated at a 95% eval pass before release. It shipped to GA in Mar 2026 and now has 1,300+ customer accounts with recorded usage (Aug 2026). Designed the MCP client-server architecture, using progressive tool disclosure and subagents to cut context bloat, and built the elicitation framework that rendered planning widgets inline within chat.",
+          "On the team that built the Planning Agent for Adaptive Planning, which shipped to GA in Mar 2026 and now has 1,300+ customer accounts with recorded usage (Aug 2026). I built its data exploration, variance analysis, scenario planning, and contextual help skills, each gated at a 95% eval pass before release, designed the MCP client-server architecture with progressive tool disclosure and subagents to cut context bloat, and built the elicitation framework that rendered planning widgets inline within chat.",
       },
       {
         title: "Adaptive Planning · Full-Stack Engineering",
