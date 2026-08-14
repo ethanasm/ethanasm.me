@@ -32,7 +32,7 @@
 #resume-entry(
   title: "Senior Software Development Engineer",
   location: "San Francisco, CA",
-  date: "2026 - Present",
+  date: "May 2026 - Present",
   description: "Workday · Agent Factory",
 )
 
@@ -46,7 +46,7 @@
 #resume-entry(
   title: "Software Development Engineer",
   location: "San Francisco, CA",
-  date: "Apr 2021 - 2026",
+  date: "Apr 2021 - May 2026",
   description: "Workday · Adaptive Planning",
 )
 
@@ -89,7 +89,7 @@
 = Open Source
 
 #resume-entry(
-  title: "Published Libraries",
+  title: "Libraries & Tools",
   location: [#link("https://github.com/ethanasm")[github.com/ethanasm]],
   date: "2026",
   description: "Python · TypeScript · MCP",
@@ -99,6 +99,7 @@
   - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm): routes one capability across interchangeable providers with ordered failover on rate limits
   - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm): per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
   - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm): MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
+  - #link("https://github.com/ethanasm/mcp-review")[mcp-review] (GitHub): AI code review CLI for commits pushed straight to main, with four stdio MCP servers for context
   - Design write-ups on tradeoffs and failure modes in the work above: #link("https://ethanasm.github.io/garden/")[ethanasm.github.io/garden]
 ]
 
@@ -150,9 +151,9 @@
 #resume-skill-item(
   "Backend & Infra",
   (
+    strong("PostgreSQL"),
     "FastAPI",
     "Temporal",
-    strong("PostgreSQL"),
     "Redis",
     "Docker",
     "GitHub Actions",
