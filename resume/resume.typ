@@ -23,8 +23,9 @@
   paper-size: "us-letter",
 )
 
-// Wrap at word boundaries only — never split a word across lines.
+// Ragged right: no mid-word breaks, and no stretched word spacing.
 #set text(hyphenate: false)
+#set par(justify: false)
 
 = Experience
 
@@ -37,12 +38,14 @@
 
 #resume-item[
   - Promoted three times in five years: Associate SDE → Senior Associate SDE → SDE → Senior SDE
-  - Contributed to Workday Decision Intelligence's Adaptive Planning integration (GA July 2026) — scenario write-back and merging scenarios into base versions — and oversaw performance testing and end-to-end tracing across system logs and LangSmith
-  - Developed the Planning Agent's data exploration, variance analysis, scenario planning, and contextual help skills
-  - Built an MCP client-server architecture (Python client, Java server) with progressive tool disclosure and subagents to reduce context bloat in agent interactions
-  - Designed and implemented the elicitation framework that renders planning widgets inline in the chat app by refactoring and reusing existing UI components, driving cross-team collaboration between GenAI, AppsAI, and architecture teams
-  - Shipped a portable report viewer widget for planning dashboards and hubs pages, giving users a consistent reporting experience without leaving their workflow — 544 instances and 12,760+ reports added in the first three months
-  - Replaced a manual report workflow with a cron-based scheduler for snapshot generation and notifications, used across 6,500+ enterprise customers
+  - Shipped the Planning Agent to GA on Adaptive Planning (Mar 2026); 1,300+ customers with usage, 1,238 MAU (Aug 2026)
+  - Built the Planning Agent's data exploration, variance analysis, scenario planning, and help skills to a 95% eval-pass gate
+  - Drove Workday Decision Intelligence from early access (Apr 2026) to GA-readiness — scenario write-back and merging scenarios into base versions — reaching 28 customer accounts with recorded usage
+  - Owned performance testing and end-to-end tracing across system logs and LangSmith over a 1,742-run benchmark corpus
+  - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
+  - Designed the elicitation framework rendering planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
+  - Shipped a portable report viewer widget for planning dashboards and hubs — 544 instances, 12,760+ reports in three months
+  - Replaced a manual report workflow with a cron-based scheduler for snapshots and notifications, used across 6,500+ customers
 ]
 
 #resume-entry(
@@ -53,8 +56,7 @@
 )
 
 #resume-item[
-  - Built a Java service automating SOC 2 audit evidence collection via OAuth 2.0-authenticated integrations with Jira, Azure DevOps, Workday, and Salesforce
-  - Designed a reporting pipeline rendering the collected evidence into audit-ready PDF packages for external auditors
+  - Automated SOC 2 audit evidence collection in Java via OAuth 2.0 integrations with Jira, Azure DevOps, Workday, and Salesforce
 ]
 
 = Projects
@@ -68,7 +70,20 @@
 
 #resume-item[
   - Full-stack flight and hotel price tracker: FastAPI backend, Next.js web and Expo mobile clients, and Temporal workflows for automated daily price checks, trend history, and threshold alerts
-  - LLM chat assistant searches flights and hotels via MCP tools; flight search fails over across three providers using #link("https://github.com/ethanasm/provider-router")[provider-router], a zero-dependency routing library I published to PyPI and npm
+  - LLM chat assistant searches flights and hotels via MCP tools, with flight search failing over across three providers
+]
+
+#resume-entry(
+  title: "Published Libraries",
+  location: [#link("https://github.com/ethanasm")[github.com/ethanasm]],
+  date: "2026",
+  description: "Python · TypeScript · MCP",
+)
+
+#resume-item[
+  - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm) — routes one capability across interchangeable providers with ordered failover on rate limits
+  - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm) — per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
+  - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm) — MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
 ]
 
 #resume-entry(
@@ -79,9 +94,7 @@
 )
 
 #resume-item[
-  - AI-powered code review CLI built for solo devs who push to main without PRs, reviewing against local git history
-  - MCP host spawning 4 stdio tool servers (git diff, file context, conventions, related files); the LLM drives its own context gathering
-  - Reviews cite actual project patterns and lint configs, not generic advice — the model sees the whole codebase, not just the diff
+  - AI code review CLI for solo devs who push to main without PRs; an MCP host spawning 4 stdio tool servers so the LLM gathers its own context
 ]
 
 = Education
@@ -92,10 +105,6 @@
   date: "Aug 2017 - Dec 2020",
   description: "B.S. in Computer Science and Business Administration",
 )
-
-#resume-item[
-  - Cum Laude, GPA: 3.69/4.00
-]
 
 = Skills
 
