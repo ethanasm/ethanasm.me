@@ -38,14 +38,23 @@
 
 #resume-item[
   - *Promoted three times in five years*: Associate SDE → Senior Associate SDE → SDE → Senior SDE
-  - Shipped the *Planning Agent* to GA on Adaptive Planning (Mar 2026); 1,300+ customers with usage, 1,238 MAU (Aug 2026)
-  - Built its data exploration, variance analysis, scenario planning, and help skills to a 95% eval-pass gate
+]
+
+#resume-item[
   - Drove *Decision Intelligence* from early access to GA-readiness: scenario write-back and merge, 28 accounts with usage
   - Integrated Adaptive Planning reports as connected assets, removing a manual export-and-upload step before analysis
   - Owned performance testing and end-to-end tracing across system logs and LangSmith for multi-step agent runs
+]
+
+#resume-item[
+  - Shipped the *Planning Agent* to GA on Adaptive Planning (Mar 2026); 1,300+ customers with usage, 1,238 MAU (Aug 2026)
+  - Built its data exploration, variance analysis, scenario planning, and help skills to a 95% eval-pass gate
   - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
   - Designed the elicitation framework rendering planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
-  - Shipped a portable report viewer widget for planning dashboards and hubs — 544 instances, 12,760+ reports in three months
+]
+
+#resume-item[
+  - *Earlier full-stack work*: a portable report viewer for dashboards and hubs — 544 instances, 12,760+ reports in three months
   - Replaced a manual report workflow with a cron-based scheduler for snapshots and notifications, used across 6,500+ customers
 ]
 
