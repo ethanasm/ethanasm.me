@@ -53,7 +53,7 @@
 #resume-item[
   - *Promoted three times*: Associate SDE → Senior Associate SDE → SDE → Senior SDE
   - On the team that took the *Planning Agent* to GA (Mar 2026); 1,300+ customer accounts with usage as of Aug 2026
-  - Developed its data exploration, variance analysis, scenario planning, and contextual help skills, each gated at 95% eval pass
+  - Developed its data exploration and variance analysis skills, each gated at a 95% eval pass before release
   - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
   - Designed the elicitation framework that renders planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
   - Shipped a portable report viewer widget (544 instances, 12,760+ reports in three months)
