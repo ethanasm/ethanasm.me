@@ -53,7 +53,7 @@
 #resume-item[
   - *Promoted three times*: Associate SDE → Senior Associate SDE → SDE → Senior SDE
   - On the team that took the *Planning Agent* to GA (Mar 2026); 1,300+ customer accounts with usage as of Aug 2026
-  - Developed its data exploration and variance analysis skills, each gated at a 95% eval pass before release
+  - Developed its data exploration and variance analysis skills in LangGraph, each gated at a 95% eval pass
   - Built an MCP client-server architecture (Python, Java) with progressive tool disclosure and subagents to cut context bloat
   - Designed the elicitation framework that renders planning widgets inline in chat, across GenAI, AppsAI, and architecture teams
   - Shipped a portable report viewer widget (544 instances, 12,760+ reports in three months)
@@ -97,7 +97,7 @@
 
 #resume-item[
   - #link("https://github.com/ethanasm/provider-router")[provider-router] (PyPI + npm): routes one capability across interchangeable providers with ordered failover on rate limits
-  - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm): per-user quotas, per-tool limits, and a global spend circuit breaker for MCP servers
+  - #link("https://github.com/ethanasm/mcp-budget-governor")[mcp-budget-governor] (PyPI + npm): per-user quotas and a global spend circuit breaker for MCP servers, in atomic Redis counters
   - #link("https://github.com/ethanasm/mcp-queue-doctor")[mcp-queue-doctor] (npm): MCP server diagnosing Postgres job queues: retry storms, stuck workers, evidence-backed recovery
   - #link("https://github.com/ethanasm/mcp-review")[mcp-git-reviewer] (npm): AI code review CLI for commits pushed straight to main, with four stdio MCP servers for context
   - Design write-ups on tradeoffs and failure modes in the work above: #link("https://ethanasm.github.io/garden/")[ethanasm.github.io/garden]
@@ -122,9 +122,8 @@
   "AI/LLM",
   (
     strong("MCP"),
-    "Agent architectures",
     "LangGraph",
-    "Anthropic API",
+    "Agent architectures",
     "LangSmith",
     "Langfuse",
     "LLM evals",

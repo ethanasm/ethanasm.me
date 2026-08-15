@@ -35,7 +35,7 @@ const jobs: Job[] = [
       {
         title: "Adaptive Planning · Planning Agent",
         description:
-          "On the team that built the Planning Agent for Adaptive Planning, which shipped to GA in Mar 2026 and now has 1,300+ customer accounts with recorded usage (Aug 2026). I contributed to its data exploration, variance analysis, scenario planning, and contextual help skills (all four gated at a 95% eval pass before release), designed the MCP client-server architecture with progressive tool disclosure and subagents to cut context bloat, and built the elicitation framework that rendered planning widgets inline within chat.",
+          "On the team that built the Planning Agent for Adaptive Planning, a LangGraph agent that shipped to GA in Mar 2026 and now has 1,300+ customer accounts with recorded usage (Aug 2026). I contributed to its data exploration, variance analysis, scenario planning, and contextual help skills (all four gated at a 95% eval pass before release), designed the MCP client-server architecture with progressive tool disclosure and subagents to cut context bloat, and built the elicitation framework that rendered planning widgets inline within chat.",
       },
       {
         title: "Adaptive Planning · Full-Stack Engineering",
